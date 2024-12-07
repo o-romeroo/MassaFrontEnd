@@ -30,7 +30,12 @@ export async function getIpInfos() {
     const url = `https://ipinfo.io/${ip}?token=${token}`;
 
     try {
-        const response = await axios.get(url);
+        const headers = {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+        };
+        const response = await axios.get(url, { headers });
+        // const response = await axios.get(url);
         const data = response.data;
         ipInfo.value = {
             country: getCountryName(data.country),
