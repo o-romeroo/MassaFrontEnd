@@ -6,7 +6,7 @@
           <v-btn icon @click="$emit('click')" class="absolute top-0 right-0" variant="plain">
             <v-icon>mdi-close</v-icon>
           </v-btn>
-          <img :src="`/src/assets/fileTypes/${getType(name)}.png`" alt="File type image" style="max-height: 100px; max-width: 100px" />
+          <img :src="`/fileTypes/${getType(name)}.png`" alt="File type image" style="max-height: 100px; max-width: 100px" />
 
           <div class="text-center font-weight-medium">
             {{ name }}
