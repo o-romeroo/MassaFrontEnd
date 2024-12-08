@@ -34,7 +34,7 @@
       </v-card>
     </v-col>
     <v-col cols="12" md="4">
-      <v-card class="mx-auto" prepend-icon="$vuetify" width="400" href="https://github.com/vuetifyjs/vuetify/"
+      <v-card class="mx-auto" prepend-icon="$vuetify" width="400" href="https://link.springer.com/article/10.1007/s10822-023-00536-y"
         rel="noopener" target="_blank">
         <template v-slot:title>
           <span class="font-weight-black">How to see the results</span>
@@ -47,7 +47,7 @@
     </v-col>
 
     <v-col cols="12" md="4">
-      <v-card class="mx-auto" prepend-icon="$vuetify" width="400" href="https://github.com/vuetifyjs/vuetify/"
+      <v-card class="mx-auto" prepend-icon="$vuetify" width="400" href="https://link.springer.com/article/10.1007/s10822-023-00536-y"
         rel="noopener" target="_blank">
         <template v-slot:title>
           <span class="font-weight-black">How to contact us</span>
