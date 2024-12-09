@@ -74,38 +74,38 @@ const items = [
   {
     category: 'massa',
     text: 'Massa',
-    subtext: 'This feature is currently under development.',
+    subtext: 'Prepare datasets for generating prediction models in cheminformatics.',
     icon: 'mdi-atom',
   },
   {
     category: 'results',
     text: 'Results',
-    subtext: 'This feature is currently under development.',
+    subtext: 'Get interactively plotted data and download it as a PDF',
     icon: 'mdi-chart-line',
   },
   {
     category: 'security',
     text: 'Security',
-    subtext: 'This feature is currently under development.',
+    subtext: 'Only anonymized data is securely stored for statistical purposes',
     icon: 'mdi-shield-check',
   },
   {
     category: 'technicalSupport',
     text: 'Technical Support',
-    subtext: 'This feature is currently under development.',
+    subtext: 'Visit the tutorial page for guidance or contact us via email for further assistance.',
     icon: 'mdi-headset',
   },
   {
     category: 'data',
     text: 'Data',
-    subtext: 'This feature is currently under development.',
+    subtext: 'Explore global analysis statistics and user origin insights through interactive visuals.',
     icon: 'mdi-cloud-upload',
   },
   {
-    category: 'other',
-    text: 'Other',
-    subtext: 'This feature is currently under development.',
-    icon: 'mdi-help-circle',
+    category: 'documentation',
+    text: 'Documentation',
+    subtext: 'Access detailed guides and resources to support your analysis',
+    icon: 'mdi-file-document-outline',
   },
 ];
 
